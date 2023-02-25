@@ -14,6 +14,7 @@
             <span class="form-text"
             *ngIf="tieneError('nombre')"
             error-msg
+            color="blue"
             >este campo es requerido</span>
         </div>
 
@@ -27,6 +28,6 @@
     </div>
 </form>
 
-<h3 class="mt-5">Formulario </h3>
+<h3 class="mt-5" >Formulario </h3>
 <pre>Value{{miFormulario.value | json}} </pre>
 <pre>Valid {{miFormulario.valid |json}} </pre>
